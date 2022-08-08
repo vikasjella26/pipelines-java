@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: local
+pool:
+  name: local
 
 steps:
 - task: Maven@3
